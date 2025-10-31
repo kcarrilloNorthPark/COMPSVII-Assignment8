@@ -9,27 +9,56 @@
     <link rel="stylesheet" href ="./css/style.css">
 </head>
 <body>
-    <h1 class="text-center mt-4">YOUR QUIZ TITLE HERE</h1>
+    <h1 class="text-center mt-4">What fruit are you? (Probably a mango)</h1>
     
     <!-- Start quiz element -->
-    <div class="container d-flex justify-content-center" id="question-1">
-      <div class="card my-4 p-4 question-block" style="width: 75%;">
-        <h4 class="mb-3">YOUR QUIZ QUESTION HERE</h4>
-        <div class="row g-2">
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">ANSWER CHOICE A</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">ANSWER CHOICE B</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">ANSWER CHOICE C</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">ANSWER CHOICE D</button>
+    <div class="container">
+
+      <div class="d-flex justify-content-center">
+          <div class="card my-4 p-4 question-block" style="width: 75%;">
+            <h4 class="mb-3">1. What’s your favorite color?</h4>
+            <div class="row g-2">
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="1">Red</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="2">Yellow</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="3">Green</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="4">Orange</button></div>
+            </div>
           </div>
         </div>
-      </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="card my-4 p-4 question-block" style="width: 75%;">
+            <h4 class="mb-3">2. What’s your personality?</h4>
+            <div class="row g-2">
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="1">Bold and passionate</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="2">Cheerful and sunny</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="3">Calm and refreshing</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="card my-4 p-4 question-block" style="width: 75%;">
+            <h4 class="mb-3">3. What kind of snack do you prefer?</h4>
+            <div class="row g-2">
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="1">Sweet and juicy</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="2">Tropical and fun</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="3">Light and crisp</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="card my-4 p-4 question-block" style="width: 75%;">
+            <h4 class="mb-3">4. What describes your energy?</h4>
+            <div class="row g-2">
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="1">Energetic</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="2">Playful</button></div>
+              <div class="col-6"><button class="btn btn-outline-primary w-100 answer-btn" data-points="3">Relaxed</button></div>
+            </div>
+          </div>
+        </div>
+        
     </div>
 
     
@@ -52,6 +81,6 @@
     </div>
     
     <!-- Connect to your script file here -->
-     <script src = "./js/script.js"></script>
+    <script src = "./js/script.js"></script>
 </body>
 </html>
